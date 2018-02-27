@@ -43,4 +43,5 @@ def turn(board)
     user_index = input_to_index(user_input)
   end
   board[user_index] = "X"
+  display_board(board)
 end
